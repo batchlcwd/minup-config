@@ -12,7 +12,7 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 9099
+  port: 9091
 eureka:
   client:
     service-url:
