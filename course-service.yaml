@@ -27,6 +27,6 @@ management:
       enabled: true
 info:
   app:
-    name: "course-service"
+    name: "course-service: default from github"
     description:  "This is course service"
     version: "1.0"
