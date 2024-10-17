@@ -27,6 +27,6 @@ management:
       enabled: true
 info:
   app:
-    name: "course-service: default from github "
-    description:  "This is course service. Auto Refresh using actuator endpoint, refresh using busrefresh"
-    version: "1.1"
+    name: "Course Service"
+    description:  "This is course service. Auto Refresh using actuator endpoint, refresh using busrefresh. This is course service.Handles all the course related works"
+    version: "1.2"
