@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    active: dev
   application:
     name: course-service
   datasource:
@@ -12,7 +10,7 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 9091
+  port: 9099
 eureka:
   client:
     service-url:
@@ -27,6 +25,6 @@ management:
       enabled: true
 info:
   app:
-    name: "Course Service"
-    description:  "This is course service. Auto Refresh using actuator endpoint, refresh using busrefresh. This is course service.Handles all the course related works"
-    version: "1.2"
+    name: "course-service-dev"
+    description:  "This is course service. This is course service dev mode from github"
+    version: "1.0D"
