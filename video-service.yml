@@ -24,6 +24,6 @@ management:
       enabled: true
 info:
   app:
-    name: "video-service"
+    name: "video-service-running"
     description:  "This is video service"
     version: "1.0"
